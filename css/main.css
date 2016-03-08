@@ -1,0 +1,164 @@
+/* Clases generales*/
+body{
+
+	background-color: #524558;
+}
+.inline{
+	display: inline-block;
+}
+/*
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+} */
+.height-300{
+	height: 300px;
+}
+.width-100{
+	width: 100%;
+}
+.margin-top{
+	margin-top: 50px;
+}
+.margin-left{
+	margin-left: 40px;	
+}
+.margin-right{
+	margin-right: 20px;
+}
+.padding-top{
+	padding-top: 20px;
+}
+.padding-top-230{
+	padding-top: 230px;
+}
+/*Backgrounds*/
+.bkg-black{
+	background-color: black;
+}
+.bkg-gray{
+	background-color: #202023;
+}
+.bk-black{
+	background-color: black;
+}
+.bg-img{
+	background-image: url(../image/header-image.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center top;
+    background-size: cover;
+    margin-top: 45px;
+    padding-top: 100px;
+}
+.img-7{
+	background-image: url(../image/image7.jpg);
+	background-size: cover;	
+}
+.img-3{
+	background-image: url(../image/image3.jpg);
+	background-size: cover;
+}
+.img-2{
+	background-image: url(../image/image2.jpg);
+	background-size: cover;
+}
+.img-4{
+	background-image: url(../image/image4.jpg);
+	background-size: cover;
+	height: 400px;
+}
+/*Color y tama de texto y tipos de fuente*/
+.txt-white{
+	color: white;
+}
+.open-sans{
+	font-family: Open Sans;
+}
+.courgette{
+	font-family: Courgette;
+}
+.cursive{
+	font-family: cursive;
+}
+.center{
+	text-align: center;
+}
+.monospace{
+	font-family: monospace;
+}
+.white-space{
+   padding: 10px;
+}
+/*Header/nav*/
+.nav{
+	text-decoration: none;
+	color: white;
+}
+.titulo{
+	margin-left: 159px;
+    font-size: 72px;
+}
+.menu{
+	padding-top: 46px;
+}
+.ul{
+	list-style-type: none;
+}
+li{
+	margin-right: 10px;
+}
+#flat{
+	color: #FAC359;
+}
+#spring-came{
+    width: 36%;
+    height: 253px;
+    margin-left: 35%;
+    padding-top: 83px;
+    
+}
+.spring{
+	font-size: -webkit-xxx-large;
+}
+/*Search*/
+#input{
+    width: 318px;
+    background-color: #524558;
+    border: none;
+    border-radius: 10px;
+}
+.cont-search{
+    width: 100%;
+    height: 56px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.kew-garden{
+	background-image: url(../image/kew_gardens_3_500x500.jpg);
+	background-size: cover;
+	height: 400px;
+}
+/*Iconos*/
+.icons{
+	font-size: 24px;
+	color: black;
+}
+.font-size{
+	font-size: 22px;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+/*Version mobile*/
+@media screen and (max-width: 600px) {
+	.display{
+		display: none;
+	}
+
+}
